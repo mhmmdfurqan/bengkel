@@ -1,6 +1,6 @@
 @extends('layouts.master')
-@section('title','Tambah Customer')
-@section('heading','Tambah Customer')
+@section('title','Form Customer')
+@section('heading','Form Customer')
 
 @section('content')
     <div class="card">
