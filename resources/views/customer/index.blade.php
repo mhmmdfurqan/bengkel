@@ -33,7 +33,7 @@
                                         <td>{{$item->alamat_customer}}</td>
                                         <td>{{$item->telp_customer}}</td>  
                                             <td>
-                                                <a href="#" class="btn btn-info btn-sm"><i class="fa fa-pencil-alt"></i></a>
+                                                <a href="/customer/edit/{{$item->id}}" class="btn btn-info btn-sm"><i class="fa fa-pencil-alt"></i></a>
                                                 <a href="#" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>                                        
