@@ -53,7 +53,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/customer">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Customer</span></a>
             </li>
@@ -76,7 +76,7 @@
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
-            <div id="content">
+            <div id="content">                
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
@@ -285,8 +285,10 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
+                    <!-- Page Heading -->                    
                     <h1 class="h3 mb-4 text-gray-800">@yield('heading')</h1>
+                    <hr>
+                    @yield('content')
 
                 </div>
                 <!-- /.container-fluid -->
